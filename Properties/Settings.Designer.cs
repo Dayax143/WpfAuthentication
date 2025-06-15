@@ -35,5 +35,29 @@ namespace WpfEfAuthen.Properties {
                 this["SqlConnection"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string BackupFolderPath {
+            get {
+                return ((string)(this["BackupFolderPath"]));
+            }
+            set {
+                this["BackupFolderPath"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("testFeature")]
+        public string BackupFileName {
+            get {
+                return ((string)(this["BackupFileName"]));
+            }
+            set {
+                this["BackupFileName"] = value;
+            }
+        }
     }
 }

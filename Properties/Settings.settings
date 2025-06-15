@@ -5,5 +5,11 @@
     <Setting Name="SqlConnection" Type="System.String" Scope="User">
       <Value Profile="(Default)">server=.; database=master; user id=sa; password=123; trustservercertificate=true;</Value>
     </Setting>
+    <Setting Name="BackupFolderPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="BackupFileName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">testFeature</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

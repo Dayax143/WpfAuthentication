@@ -40,7 +40,7 @@ namespace WpfEfAuthen
             //}
 
             // this is static folder for restoring database
-            string path = "F:\\Data Development\\testFeature.bak";
+            string path = "F:\\1 PC2-Datacenter\\testFeatureDB.bak";
             RestoreDatabase(path);
         }
 
