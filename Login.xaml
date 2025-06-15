@@ -8,9 +8,9 @@
         Title="Login" Height="300" Width="400">
     <Grid>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-            <TextBlock Text="Login" FontSize="20" FontWeight="Bold" Margin="0,0,0,10"/>
-            <TextBox Name="txtLoginUsername" Width="250" />
-            <PasswordBox Name="txtLoginPassword" Width="250"/>
+            <TextBlock Text="Login" FontSize="20" FontWeight="Bold"/>
+            <TextBox x:Name="txtLoginUsername" Width="250" />
+            <PasswordBox x:Name="txtLoginPassword" Width="250"/>
             <Button Content="Login" Click="LoginButton_Click" Width="250"/>
         </StackPanel>
     </Grid>

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET9_0;NETCOREAPP
 F:\Software Development\HWA DEV\WpfEfAuthen\App.xaml
-5894653141
+7250432758
 
-27594471817
+291787218243
 230-683064979
-AdminWindow.xaml;Login.xaml;MainWindow.xaml;RegisterWindow.xaml;UserWindow.xaml;
+AdminWindow.xaml;BackupWindow.xaml;Login.xaml;MainWindow.xaml;RegisterWindow.xaml;RestoreWindow.xaml;UserWindow.xaml;
 
 False
 

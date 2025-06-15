@@ -3,12 +3,52 @@
   "WorkspaceRootPath": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0EC42B82-41DF-4817-A19A-D491B80C52C5}|WpfEfAuthen.csproj|f:\\software development\\hwa dev\\wpfefauthen\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0EC42B82-41DF-4817-A19A-D491B80C52C5}|WpfEfAuthen.csproj|solutionrelative:login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EC42B82-41DF-4817-A19A-D491B80C52C5}|WpfEfAuthen.csproj|f:\\software development\\hwa dev\\wpfefauthen\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0EC42B82-41DF-4817-A19A-D491B80C52C5}|WpfEfAuthen.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EC42B82-41DF-4817-A19A-D491B80C52C5}|WpfEfAuthen.csproj|f:\\software development\\hwa dev\\wpfefauthen\\backupwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{0EC42B82-41DF-4817-A19A-D491B80C52C5}|WpfEfAuthen.csproj|solutionrelative:backupwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EC42B82-41DF-4817-A19A-D491B80C52C5}|WpfEfAuthen.csproj|f:\\software development\\hwa dev\\wpfefauthen\\restorewindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{0EC42B82-41DF-4817-A19A-D491B80C52C5}|WpfEfAuthen.csproj|solutionrelative:restorewindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EC42B82-41DF-4817-A19A-D491B80C52C5}|WpfEfAuthen.csproj|f:\\software development\\hwa dev\\wpfefauthen\\restorewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0EC42B82-41DF-4817-A19A-D491B80C52C5}|WpfEfAuthen.csproj|solutionrelative:restorewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EC42B82-41DF-4817-A19A-D491B80C52C5}|WpfEfAuthen.csproj|f:\\software development\\hwa dev\\wpfefauthen\\services\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EC42B82-41DF-4817-A19A-D491B80C52C5}|WpfEfAuthen.csproj|solutionrelative:services\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EC42B82-41DF-4817-A19A-D491B80C52C5}|WpfEfAuthen.csproj|f:\\software development\\hwa dev\\wpfefauthen\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0EC42B82-41DF-4817-A19A-D491B80C52C5}|WpfEfAuthen.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EC42B82-41DF-4817-A19A-D491B80C52C5}|WpfEfAuthen.csproj|f:\\software development\\hwa dev\\wpfefauthen\\backupwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0EC42B82-41DF-4817-A19A-D491B80C52C5}|WpfEfAuthen.csproj|solutionrelative:backupwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0EC42B82-41DF-4817-A19A-D491B80C52C5}|WpfEfAuthen.csproj|f:\\software development\\hwa dev\\wpfefauthen\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EC42B82-41DF-4817-A19A-D491B80C52C5}|WpfEfAuthen.csproj|solutionrelative:login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0EC42B82-41DF-4817-A19A-D491B80C52C5}|WpfEfAuthen.csproj|f:\\software development\\hwa dev\\wpfefauthen\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EC42B82-41DF-4817-A19A-D491B80C52C5}|WpfEfAuthen.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EC42B82-41DF-4817-A19A-D491B80C52C5}|WpfEfAuthen.csproj|f:\\software development\\hwa dev\\wpfefauthen\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EC42B82-41DF-4817-A19A-D491B80C52C5}|WpfEfAuthen.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EC42B82-41DF-4817-A19A-D491B80C52C5}|WpfEfAuthen.csproj|f:\\software development\\hwa dev\\wpfefauthen\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EC42B82-41DF-4817-A19A-D491B80C52C5}|WpfEfAuthen.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0EC42B82-41DF-4817-A19A-D491B80C52C5}|WpfEfAuthen.csproj|f:\\software development\\hwa dev\\wpfefauthen\\userwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -35,19 +75,7 @@
       "RelativeMoniker": "D:0:0:{0EC42B82-41DF-4817-A19A-D491B80C52C5}|WpfEfAuthen.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EC42B82-41DF-4817-A19A-D491B80C52C5}|WpfEfAuthen.csproj|f:\\software development\\hwa dev\\wpfefauthen\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0EC42B82-41DF-4817-A19A-D491B80C52C5}|WpfEfAuthen.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EC42B82-41DF-4817-A19A-D491B80C52C5}|WpfEfAuthen.csproj|f:\\software development\\hwa dev\\wpfefauthen\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0EC42B82-41DF-4817-A19A-D491B80C52C5}|WpfEfAuthen.csproj|solutionrelative:login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EC42B82-41DF-4817-A19A-D491B80C52C5}|WpfEfAuthen.csproj|f:\\software development\\hwa dev\\wpfefauthen\\services\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EC42B82-41DF-4817-A19A-D491B80C52C5}|WpfEfAuthen.csproj|solutionrelative:services\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EC42B82-41DF-4817-A19A-D491B80C52C5}|WpfEfAuthen.csproj|f:\\software development\\hwa dev\\wpfefauthen\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "AbsoluteMoniker": "D:0:0:{0EC42B82-41DF-4817-A19A-D491B80C52C5}|WpfEfAuthen.csproj|F:\\Software Development\\HWA DEV\\WpfEfAuthen\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
       "RelativeMoniker": "D:0:0:{0EC42B82-41DF-4817-A19A-D491B80C52C5}|WpfEfAuthen.csproj|solutionrelative:properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
     }
   ],
@@ -58,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -67,118 +95,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserWindow.xaml",
-              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\UserWindow.xaml",
-              "RelativeDocumentMoniker": "UserWindow.xaml",
-              "ToolTip": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\UserWindow.xaml",
-              "RelativeToolTip": "UserWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-15T07:08:26.42Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AdminWindow.xaml",
-              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\AdminWindow.xaml",
-              "RelativeDocumentMoniker": "AdminWindow.xaml",
-              "ToolTip": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\AdminWindow.xaml",
-              "RelativeToolTip": "AdminWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-15T07:07:34.335Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.xaml.cs",
-              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\Login.xaml.cs",
-              "RelativeDocumentMoniker": "Login.xaml.cs",
-              "ToolTip": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\Login.xaml.cs",
-              "RelativeToolTip": "Login.xaml.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCQAAAANAAAAAAAAAA==",
+              "Title": "BackupWindow.xaml.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\BackupWindow.xaml.cs",
+              "RelativeDocumentMoniker": "BackupWindow.xaml.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\BackupWindow.xaml.cs",
+              "RelativeToolTip": "BackupWindow.xaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA0wCUAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T06:25:17.064Z",
+              "WhenOpened": "2025-06-15T08:00:15.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BackupWindow.xaml",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\BackupWindow.xaml",
+              "RelativeDocumentMoniker": "BackupWindow.xaml",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\BackupWindow.xaml",
+              "RelativeToolTip": "BackupWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-15T07:59:28.981Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "RegisterWindow.xaml.cs",
-              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\RegisterWindow.xaml.cs",
-              "RelativeDocumentMoniker": "RegisterWindow.xaml.cs",
-              "ToolTip": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\RegisterWindow.xaml.cs",
-              "RelativeToolTip": "RegisterWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T05:56:05.119Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RegisterWindow.xaml",
-              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\RegisterWindow.xaml",
-              "RelativeDocumentMoniker": "RegisterWindow.xaml",
-              "ToolTip": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\RegisterWindow.xaml",
-              "RelativeToolTip": "RegisterWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-15T05:55:30.418Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "Services\\AuthService.cs",
-              "ToolTip": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\Services\\AuthService.cs",
-              "RelativeToolTip": "Services\\AuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T05:49:15.429Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "tblUser.cs",
-              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\Services\\tblUser.cs",
-              "RelativeDocumentMoniker": "Services\\tblUser.cs",
-              "ToolTip": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\Services\\tblUser.cs",
-              "RelativeToolTip": "Services\\tblUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T04:58:58.157Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Login.xaml",
-              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\Login.xaml",
-              "RelativeDocumentMoniker": "Login.xaml",
-              "ToolTip": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\Login.xaml",
-              "RelativeToolTip": "Login.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-15T06:24:17.632Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Settings.settings",
-              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\Properties\\Settings.settings",
-              "RelativeDocumentMoniker": "Properties\\Settings.settings",
-              "ToolTip": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\Properties\\Settings.settings",
-              "RelativeToolTip": "Properties\\Settings.settings",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
-              "WhenOpened": "2025-06-15T05:31:44.925Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "MyContext.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\Services\\MyContext.cs",
               "RelativeDocumentMoniker": "Services\\MyContext.cs",
@@ -191,7 +132,104 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-15T08:07:27.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T07:45:15.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AssemblyInfo.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\AssemblyInfo.cs",
+              "RelativeToolTip": "AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T07:43:50.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserWindow.xaml",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\UserWindow.xaml",
+              "RelativeDocumentMoniker": "UserWindow.xaml",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\UserWindow.xaml",
+              "RelativeToolTip": "UserWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-15T07:08:26.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminWindow.xaml",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\AdminWindow.xaml",
+              "RelativeDocumentMoniker": "AdminWindow.xaml",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\AdminWindow.xaml",
+              "RelativeToolTip": "AdminWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-15T07:07:34.335Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "Login.xaml.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\Login.xaml.cs",
+              "RelativeToolTip": "Login.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwCcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T06:25:17.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RegisterWindow.xaml.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\RegisterWindow.xaml.cs",
+              "RelativeDocumentMoniker": "RegisterWindow.xaml.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\RegisterWindow.xaml.cs",
+              "RelativeToolTip": "RegisterWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T05:56:05.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\Login.xaml",
+              "RelativeDocumentMoniker": "Login.xaml",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\Login.xaml",
+              "RelativeToolTip": "Login.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-15T06:24:17.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -203,7 +241,79 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
+              "Title": "RestoreWindow.xaml",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\RestoreWindow.xaml",
+              "RelativeDocumentMoniker": "RestoreWindow.xaml",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\RestoreWindow.xaml",
+              "RelativeToolTip": "RestoreWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-15T08:03:29.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RestoreWindow.xaml.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\RestoreWindow.xaml.cs",
+              "RelativeDocumentMoniker": "RestoreWindow.xaml.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\RestoreWindow.xaml.cs",
+              "RelativeToolTip": "RestoreWindow.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAqwCsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T08:04:14.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RegisterWindow.xaml",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\RegisterWindow.xaml",
+              "RelativeDocumentMoniker": "RegisterWindow.xaml",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\RegisterWindow.xaml",
+              "RelativeToolTip": "RegisterWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-15T05:55:30.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T05:49:15.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "tblUser.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\Services\\tblUser.cs",
+              "RelativeDocumentMoniker": "Services\\tblUser.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\Services\\tblUser.cs",
+              "RelativeToolTip": "Services\\tblUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T04:58:58.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\Properties\\Settings.settings",
+              "RelativeDocumentMoniker": "Properties\\Settings.settings",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\Properties\\Settings.settings",
+              "RelativeToolTip": "Properties\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2025-06-15T05:31:44.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEfAuthen\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
@@ -211,8 +321,7 @@
               "RelativeToolTip": "MainWindow.xaml.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAiwBwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T04:53:57.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T04:53:57.674Z"
             }
           ]
         }
