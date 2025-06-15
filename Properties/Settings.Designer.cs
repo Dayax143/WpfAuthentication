@@ -25,8 +25,8 @@ namespace WpfEfAuthen.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("server=.; database=testFeature; user id=sa; password=123; trustservercertificate=" +
-            "true;")]
+        [global::System.Configuration.DefaultSettingValueAttribute("server=.; database=master; user id=sa; password=123; trustservercertificate=true;" +
+            "")]
         public string SqlConnection {
             get {
                 return ((string)(this["SqlConnection"]));

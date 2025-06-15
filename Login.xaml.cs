@@ -25,6 +25,7 @@ namespace WpfEfAuthen
             return (false, null);
         }
 
+
         private void LoginButton_Click(object sender, RoutedEventArgs e)
         {
             string username = txtLoginUsername.Text;
