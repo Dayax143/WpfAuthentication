@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpfEfAuthen.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="User Login" Height="300" Width="400">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Content="Register" Name="btnRegister" Click="OpenRegisterWindow_Click" Width="250"/>
+            <Button Content="Login" Name="btnLogin" Click="btnLogin_Click"  Width="250"/>
+        </StackPanel>
+    </Grid>
+
+</Window>
+
+    
