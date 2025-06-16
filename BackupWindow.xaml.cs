@@ -49,17 +49,23 @@ namespace WpfEfAuthen
         private void btnBrowseFolder_Click(object sender, RoutedEventArgs e)
         {
             DateTime date = DateTime.Now;
-            string formattedDate = date.ToString("yyyy-MM-dd-HH-mm-ss"); // Removes "/", "-", and "_"
+            string formattedDate = date.ToString("yyyy-MM-dd-HH-mm-ss"); // Ensures a clean file name
+            string defaultFolder = Properties.Settings.Default.BackupFolderPath; // Retrieve previous path
+
             var dialog = new Microsoft.Win32.SaveFileDialog
             {
                 Filter = "Backup Files (*.bak)|*.bak",
-                FileName = $"testFeatureDB-{formattedDate}.bak"
+                FileName = $"testFeatureDB-{formattedDate}.bak",
+                InitialDirectory = !string.IsNullOrEmpty(defaultFolder) ? System.IO.Path.GetDirectoryName(defaultFolder) : Environment.GetFolderPath(Environment.SpecialFolder.Desktop) // Use previous folder or default to Desktop
             };
 
             if (dialog.ShowDialog() == true)
             {
+                Properties.Settings.Default.BackupFolderPath = dialog.FileName;
+                Properties.Settings.Default.Save(); // Save the updated path
                 BackupDatabase(dialog.FileName);
             }
+
         }
 
         //// save default path to settings for next BACKUPS
