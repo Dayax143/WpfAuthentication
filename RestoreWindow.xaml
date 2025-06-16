@@ -9,7 +9,8 @@
     <Grid>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
             <TextBlock Text="Restore Database" FontSize="20" FontWeight="Bold" Margin="0,0,0,10"/>
-            <Button Content="Choose Backup File" Click="RestoreButton_Click" Width="250"/>
+            <Button Content="Select Database file" Name="btnBrowse" Click="btnBrowse_Click" Width="250"/>
+            <!--<Button Content="Restore Now" Click="btnRestore_Click" Name="btnRestore" Width="250"/>-->
         </StackPanel>
     </Grid>
 </Window>

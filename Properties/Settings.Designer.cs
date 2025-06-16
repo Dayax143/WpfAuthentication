@@ -50,7 +50,7 @@ namespace WpfEfAuthen.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("testFeature")]
+        [global::System.Configuration.DefaultSettingValueAttribute("testFeatureDB.bak")]
         public string BackupFileName {
             get {
                 return ((string)(this["BackupFileName"]));

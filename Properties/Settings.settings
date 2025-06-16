@@ -9,7 +9,7 @@
       <Value Profile="(Default)" />
     </Setting>
     <Setting Name="BackupFileName" Type="System.String" Scope="User">
-      <Value Profile="(Default)">testFeature</Value>
+      <Value Profile="(Default)">testFeatureDB.bak</Value>
     </Setting>
   </Settings>
 </SettingsFile>
