@@ -11,5 +11,8 @@
     <Setting Name="BackupFileName" Type="System.String" Scope="User">
       <Value Profile="(Default)">testFeatureDB.bak</Value>
     </Setting>
+    <Setting Name="Installed_date" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">2025-06-17</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

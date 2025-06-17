@@ -59,5 +59,17 @@ namespace WpfEfAuthen.Properties {
                 this["BackupFileName"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("2025-06-17")]
+        public global::System.DateTime Installed_date {
+            get {
+                return ((global::System.DateTime)(this["Installed_date"]));
+            }
+            set {
+                this["Installed_date"] = value;
+            }
+        }
     }
 }

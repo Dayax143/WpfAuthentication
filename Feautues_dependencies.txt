@@ -1,0 +1,41 @@
+﻿For a client machine where you’ll install a setup of your WPF application containing these dependencies, here are the key requirements:
+
+System Requirements
+Operating System: Windows 10 or later (with support for WPF applications).
+
+Processor: At least a dual-core processor (recommended: Intel Core i5 or AMD Ryzen 5).
+
+RAM: Minimum 4GB, recommended 8GB or more for smooth performance.
+
+Storage: At least 10GB free space for the application and database.
+
+Software & Dependencies
+.NET Runtime
+
+Ensure that .NET 6 or later is installed for compatibility with your WPF application.
+
+You can bundle the .NET Runtime with your installer if the client doesn’t have it.
+
+Entity Framework Core
+
+This requires a SQL Server instance on the client machine or an accessible database server.
+
+If using local databases, SQL Server Express Edition is a lightweight option.
+
+BCrypt.Net-Next
+
+This library is used for password hashing, so no extra setup is needed—it just runs with your app.
+
+Windows Desktop Runtime
+
+Since your application is WPF-based, it needs the Microsoft WindowsDesktop.App framework (which is included with .NET).
+
+Additional Dependencies
+
+Microsoft analyzers, logging generators, and any third-party NuGet packages referenced in your solution should either be bundled in the installer or included via dependency management.
+
+Network & Firewall Considerations
+
+If your app connects to a database remotely, ensure the required ports (e.g., SQL Server default port 1433) are open.
+
+If using inter-VLAN routing, configure network rules to allow database access between departments.

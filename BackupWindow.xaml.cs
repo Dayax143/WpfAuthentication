@@ -11,6 +11,32 @@ namespace WpfEfAuthen
     /// </summary>
     public partial class BackupWindow : Window
     {
+        public BackupWindow()
+        {
+            InitializeComponent();
+        }
+
+        // This validates the license is expired
+        //public void checkLicense()
+        //{
+        //    // Ensure correct parsing of the stored installation date
+        //    DateTime installed_date = Properties.Settings.Default.Installed_date;
+        //    DateTime current_date = DateTime.Now;
+
+        //    int daysDifference = (current_date - installed_date).Days;
+
+        //    if (daysDifference <= 0) // Assuming expiration after 10 day
+        //    {
+        //        MessageBox.Show("License Expired");
+        //        App.Current.Shutdown();
+        //        Close();
+        //    }
+        //    else
+        //    {
+        //        MessageBox.Show($"You are a legitimate user {daysDifference} days left "); // Fixed grammar
+        //    }
+        //}
+
         // function database
         public void BackupDatabase(string backupFile)
         {
@@ -106,15 +132,15 @@ namespace WpfEfAuthen
                         {
                             // Database exists, replace it
                             restoreQuery = @$"
-                    ALTER DATABASE [testFeature] SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
-                    RESTORE DATABASE [testFeature] FROM DISK = '{backupFile}' WITH REPLACE;
-                    ALTER DATABASE [testFeature] SET MULTI_USER;";
+                            ALTER DATABASE [testFeature] SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+                            RESTORE DATABASE [testFeature] FROM DISK = '{backupFile}' WITH REPLACE;
+                            ALTER DATABASE [testFeature] SET MULTI_USER;";
                         }
                         else
                         {
                             // Database does not exist, restore directly
                             restoreQuery = @$"
-                    RESTORE DATABASE [testFeature] FROM DISK = '{backupFile}' WITH REPLACE;";
+                            RESTORE DATABASE [testFeature] FROM DISK = '{backupFile}' WITH REPLACE;";
                         }
 
                         using (SqlCommand restoreCmd = new SqlCommand(restoreQuery, con))
@@ -134,8 +160,6 @@ namespace WpfEfAuthen
             {
                 MessageBox.Show($"Unexpected Error: {ex.Message}");
             }
-
-
         }
 
         private void btnRestore_Click(object sender, RoutedEventArgs e)
