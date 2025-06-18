@@ -152,6 +152,4 @@ F:\Software Development\HWA DEV\WpfEfAuthen\obj\Debug\net9.0-windows\AdminWindow
 F:\Software Development\HWA DEV\WpfEfAuthen\obj\Debug\net9.0-windows\UserWindow.baml
 F:\Software Development\HWA DEV\WpfEfAuthen\obj\Debug\net9.0-windows\WpfEfAuthen.sourcelink.json
 F:\Software Development\HWA DEV\WpfEfAuthen\obj\Debug\net9.0-windows\BackupWindow.g.cs
-F:\Software Development\HWA DEV\WpfEfAuthen\obj\Debug\net9.0-windows\RestoreWindow.g.cs
 F:\Software Development\HWA DEV\WpfEfAuthen\obj\Debug\net9.0-windows\BackupWindow.baml
-F:\Software Development\HWA DEV\WpfEfAuthen\obj\Debug\net9.0-windows\RestoreWindow.baml

@@ -19,9 +19,6 @@
     <Compile Update="RegisterWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="RestoreWindow.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="UserWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -40,9 +37,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="RegisterWindow.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="RestoreWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UserWindow.xaml">

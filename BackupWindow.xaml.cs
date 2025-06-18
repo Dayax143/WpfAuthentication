@@ -1,6 +1,7 @@
 ﻿using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.IO;
 using System.Windows;
 using WpfEfAuthen.Services;
 
@@ -14,6 +15,7 @@ namespace WpfEfAuthen
         public BackupWindow()
         {
             InitializeComponent();
+            lblDefaultPath.Text = Properties.Settings.Default.BackupFolderPath;
         }
 
         // This validates the license is expired
@@ -75,22 +77,60 @@ namespace WpfEfAuthen
         private void btnBrowseFolder_Click(object sender, RoutedEventArgs e)
         {
             DateTime date = DateTime.Now;
-            string formattedDate = date.ToString("yyyy-MM-dd-HH-mm-ss"); // Ensures a clean file name
+            string formattedDate = date.ToString("yyyy_MM_dd_HH_mm_ss"); // Ensures a clean file name
             string defaultFolder = Properties.Settings.Default.BackupFolderPath; // Retrieve previous path
 
-            var dialog = new Microsoft.Win32.SaveFileDialog
-            {
-                Filter = "Backup Files (*.bak)|*.bak",
-                FileName = $"testFeatureDB-{formattedDate}.bak",
-                InitialDirectory = !string.IsNullOrEmpty(defaultFolder) ? System.IO.Path.GetDirectoryName(defaultFolder) : Environment.GetFolderPath(Environment.SpecialFolder.Desktop) // Use previous folder or default to Desktop
-            };
+            // Ask the user whether to save in the default folder or choose a new path
+            MessageBoxResult result = MessageBox.Show(
+                $"Do you want to save the backup in the default folder?\n(Default: {defaultFolder})",
+                "Backup Confirmation",
+                MessageBoxButton.YesNoCancel,
+                MessageBoxImage.Question
+            );
 
-            if (dialog.ShowDialog() == true)
+            string backupFilePath;
+
+            if (result == MessageBoxResult.Yes)
             {
-                Properties.Settings.Default.BackupFolderPath = dialog.FileName;
-                Properties.Settings.Default.Save(); // Save the updated path
-                BackupDatabase(dialog.FileName);
+                if (!string.IsNullOrEmpty(defaultFolder) && Directory.Exists(defaultFolder))
+                {
+                    // Save backup automatically in default folder
+                    backupFilePath = Path.Combine(defaultFolder, $"testFeatureDB_{formattedDate}.bak");
+                }
+                else
+                {
+                    MessageBox.Show("The default backup folder is not set or does not exist.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    return;
+                }
             }
+            else if (result == MessageBoxResult.No)
+            {
+                var dialog = new Microsoft.Win32.SaveFileDialog
+                {
+                    Filter = "Backup Files (*.bak)|*.bak",
+                    FileName = $"testFeatureDB_{formattedDate}.bak"
+                };
+
+                if (dialog.ShowDialog() == true)
+                {
+                    backupFilePath = dialog.FileName;
+                    Properties.Settings.Default.BackupFolderPath = Path.GetDirectoryName(dialog.FileName);
+                    Properties.Settings.Default.Save(); // Save the updated path
+
+                    lblDefaultPath.Text = backupFilePath;
+                }
+                else
+                {
+                    return; // Exit if the user cancels the dialog
+                }
+            }
+            else
+            {
+                return; // Exit if the user cancels the confirmation dialog
+            }
+
+            // Proceed with the backup
+            BackupDatabase(backupFilePath);
 
         }
 
@@ -181,6 +221,11 @@ namespace WpfEfAuthen
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void btnSavePath_Click(object sender, RoutedEventArgs e)
+        {
+            BackupDatabase(lblDefaultPath.Text + "testBAckup");
         }
     }
 }

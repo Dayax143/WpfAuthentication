@@ -12,10 +12,16 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-            <TextBlock Text="Backup Database" FontSize="20" FontWeight="Bold" Margin="0,0,0,10" Grid.Row="0" />
-            <Button Content="Choose Backup Location" Grid.Row="0" Name="btnBrowseFolder" Width="200" Height="60" Click="btnBrowseFolder_Click"/>
-            <TextBlock Text="Restore Database" FontSize="20" FontWeight="Bold" Margin="0,0,0,10" Grid.Row="1"/>
-            <Button Name="btnRestore" Click="btnRestore_Click" Grid.Row="1" Width="200" Height="60">Restore</Button>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+            <TextBlock Text="Backup Database" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,10" Grid.Row="1" Grid.Column="0" />
+            <Button Content="Choose Backup Location" Grid.Row="1" Name="btnBrowseFolder" Width="200" Grid.Column="0" Height="60" Click="btnBrowseFolder_Click"/>
+            <TextBlock Text="Default Backup Path" FontSize="20" FontWeight="Bold" Name="lblDefaultPath" Margin="0,0,0,12" Grid.Column="0" Grid.Row="2" Grid.RowSpan="2" />
+            
+        <TextBlock Text="Restore Database" FontSize="20" FontWeight="Bold" Margin="0,0,0,10" Grid.Row="1" HorizontalAlignment="Center" Grid.Column="1" Grid.ColumnSpan="2"/>
+        <Button Name="btnRestore" Click="btnRestore_Click" Grid.Row="1" Width="200" Height="60" Grid.Column="1">Restore</Button>
         
     </Grid>
 </Window>

@@ -18,7 +18,7 @@ namespace WpfEfAuthen
                 int gracePeriodDays = 5; // Extra days after expiration
 
                 // Ensure correct parsing of the stored installation date
-                DateTime installed_date =Settings.Default.Installed_date;
+                DateTime installed_date = Settings.Default.Installed_date;
 
                 DateTime current_date = DateTime.Now;
                 int daysDifference = (current_date - installed_date).Days;
@@ -36,7 +36,8 @@ namespace WpfEfAuthen
                 else
                 {
                     MessageBox.Show($"You are a legitimate user. {maxUsageDays - daysDifference}");
-                } }
+                }
+            }
             catch (Exception ex)
             {
                 MessageBox.Show($"Unexpected error: {ex.Message}");
